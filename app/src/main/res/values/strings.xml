@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">basic</string>
+    <string name="title_activity_about">AboutActivity</string>
+    <string name="title_activity_image">ImageActivity</string>
+    <string name="title_activity_input2">InputActivity2</string>
+    <string name="title_activity_log">LogActivity</string>
+    <string name="title_activity_card">CardActivity</string>
+    <string name="title_activity_grid">GridActivity</string>
+    <string name="title_activity_exe">ExeActivity</string>
+    <string name="title_activity_anonymous">AnonymousActivity</string>
+</resources>
