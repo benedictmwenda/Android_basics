@@ -73,6 +73,34 @@ fun Greeting() {
             Text(text = "About screen", color = Color.Black)
         }
 
+        val online = LocalContext.current
+        Button(
+            onClick = { online.startActivity(Intent(online, OnlineActivity::class.java)) },
+//            colors = ButtonDefaults.buttonColors(Color.Cyan),
+//            shape = RectangleShape
+            shape = RoundedCornerShape(15.dp),
+//            shape = CutCornerShape(15),
+            colors = ButtonDefaults.outlinedButtonColors(Color.Transparent),
+            border = BorderStroke(1.5.dp, Color.Cyan)
+        )
+        {
+            Text(text = "Online Screen", color = Color.Black)
+        }
+
+        val web = LocalContext.current
+        Button(
+            onClick = { web.startActivity(Intent(web, WebActivity::class.java)) },
+//            colors = ButtonDefaults.buttonColors(Color.Cyan),
+//            shape = RectangleShape
+            shape = RoundedCornerShape(15.dp),
+//            shape = CutCornerShape(15),
+            colors = ButtonDefaults.outlinedButtonColors(Color.Transparent),
+            border = BorderStroke(1.5.dp, Color.Cyan)
+        )
+        {
+            Text(text = "Web Screen", color = Color.Black)
+        }
+
 //IMAGE BUTTON
         val img = LocalContext.current
         Button(

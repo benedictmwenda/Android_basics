@@ -8,4 +8,8 @@
     <string name="title_activity_grid">GridActivity</string>
     <string name="title_activity_exe">ExeActivity</string>
     <string name="title_activity_anonymous">AnonymousActivity</string>
+    <string name="title_activity_screen">ScreenActivity</string>
+    <string name="title_activity_files">FilesActivity</string>
+    <string name="title_activity_online">OnlineActivity</string>
+    <string name="title_activity_web">WebActivity</string>
 </resources>

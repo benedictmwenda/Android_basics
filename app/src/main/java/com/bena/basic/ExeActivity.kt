@@ -16,6 +16,7 @@ import androidx.compose.foundation.layout.Spacer
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.padding
+import androidx.compose.foundation.layout.size
 import androidx.compose.foundation.layout.width
 import androidx.compose.foundation.lazy.LazyColumn
 import androidx.compose.foundation.shape.RoundedCornerShape
@@ -71,7 +72,7 @@ fun Exe(){
                         .fillMaxSize()
 //                .clip(CircleShape)
                     ,
-                    contentScale = ContentScale.Crop
+                    contentScale = ContentScale.Fit
                 )
 
             Column(
@@ -228,11 +229,13 @@ fun Exe(){
                         border = BorderStroke(1.5.dp, color = Color.Black),
                         modifier = Modifier
                             .padding(10.dp)
+                            .size(150.dp)
+
 
                     ) {
                         Image(
                             painter = painterResource(id = R.drawable.impala),
-                            contentDescription = ""
+                            contentDescription = "Nusa Penida"
                         )
                         Row(
                             modifier = Modifier
@@ -247,14 +250,66 @@ fun Exe(){
                     Card(
                         elevation = CardDefaults.cardElevation(100.dp),
                         border = BorderStroke(1.5.dp, color = Color.Black),
+                        modifier = Modifier
+                            .padding(10.dp)
+                            .size(150.dp)
+
                     ) {
                         Image(
                             painter = painterResource(id = R.drawable.impala),
-                            contentDescription = ""
+                            contentDescription = "Tanah Lot"
                         )
                         Row(
                             modifier = Modifier
-                                .padding(10.dp)
+                                .padding(0.dp)
+                        ) {
+                            Text(text = "Tanah Lot")
+                        }
+                    }
+                }
+
+                Spacer(modifier = Modifier.height(20.dp))
+
+                Row() {
+
+                    Card(
+                        elevation = CardDefaults.cardElevation(100.dp),
+                        border = BorderStroke(1.5.dp, color = Color.Black),
+                        modifier = Modifier
+                            .padding(10.dp)
+                            .size(150.dp)
+
+
+                    ) {
+                        Image(
+                            painter = painterResource(id = R.drawable.impala),
+                            contentDescription = "Nusa Penida"
+                        )
+                        Row(
+                            modifier = Modifier
+                                .padding(0.dp)
+                        ) {
+                            Text(text = "Nusa Penida")
+                        }
+                    }
+
+                    Spacer(modifier = Modifier.height(20.dp))
+
+                    Card(
+                        elevation = CardDefaults.cardElevation(100.dp),
+                        border = BorderStroke(1.5.dp, color = Color.Black),
+                        modifier = Modifier
+                            .padding(10.dp)
+                            .size(150.dp)
+
+                    ) {
+                        Image(
+                            painter = painterResource(id = R.drawable.impala),
+                            contentDescription = "Tanah Lot"
+                        )
+                        Row(
+                            modifier = Modifier
+                                .padding(0.dp)
                         ) {
                             Text(text = "Tanah Lot")
                         }

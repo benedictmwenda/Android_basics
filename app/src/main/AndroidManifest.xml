@@ -2,6 +2,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools">
 
+    <uses-permission-sdk-23 android:name="android.permission.INTERNET" />
+
     <application
         android:allowBackup="true"
         android:dataExtractionRules="@xml/data_extraction_rules"
@@ -13,9 +15,14 @@
         android:theme="@style/Theme.Basic"
         tools:targetApi="31">
         <activity
-            android:name=".AnonymousActivity"
+            android:name=".WebActivity"
             android:exported="false"
-            android:label="@string/title_activity_anonymous"
+            android:label="@string/title_activity_web"
+            android:theme="@style/Theme.Basic" />
+        <activity
+            android:name=".OnlineActivity"
+            android:exported="false"
+            android:label="@string/title_activity_online"
             android:theme="@style/Theme.Basic" />
         <activity
             android:name=".ExeActivity"
