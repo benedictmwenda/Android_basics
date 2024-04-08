@@ -121,6 +121,15 @@ fun Greeting() {
         ){
             Text("Cards", color = Color.Gray)
         }
+        val wah = LocalContext.current
+        Button(
+            onClick = {wah.startActivity(Intent(wah, WanderingActivity1::class.java))},
+            shape = RoundedCornerShape(15.dp),
+            colors = ButtonDefaults.outlinedButtonColors(Color.Blue),
+            border = BorderStroke(1.5.dp, Color.Cyan)
+        ){
+            Text("QAQA SOFTWARE", color = Color.Cyan)
+        }
 
         val inp = LocalContext.current
         Button(

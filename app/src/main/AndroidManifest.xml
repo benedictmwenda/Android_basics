@@ -8,12 +8,32 @@
         android:allowBackup="true"
         android:dataExtractionRules="@xml/data_extraction_rules"
         android:fullBackupContent="@xml/backup_rules"
-        android:icon="@mipmap/ic_launcher"
+        android:icon="@drawable/impala"
         android:label="@string/app_name"
-        android:roundIcon="@mipmap/ic_launcher_round"
+        android:roundIcon="@drawable/impala"
         android:supportsRtl="true"
         android:theme="@style/Theme.Basic"
         tools:targetApi="31">
+        <activity
+            android:name=".RuthActivity"
+            android:exported="false"
+            android:label="@string/title_activity_ruth"
+            android:theme="@style/Theme.Basic" />
+        <activity
+            android:name=".WanderingActivity3"
+            android:exported="false"
+            android:label="@string/title_activity_wandering3"
+            android:theme="@style/Theme.Basic" />
+        <activity
+            android:name=".WanderingActivity2"
+            android:exported="false"
+            android:label="@string/title_activity_wandering2"
+            android:theme="@style/Theme.Basic" />
+        <activity
+            android:name=".WanderingActivity1"
+            android:exported="false"
+            android:label="@string/title_activity_wandering1"
+            android:theme="@style/Theme.Basic" />
         <activity
             android:name=".WebActivity"
             android:exported="false"

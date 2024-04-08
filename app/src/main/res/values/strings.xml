@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">basic</string>
+    <string name="app_name">QAQA_SOFTWARES</string>
     <string name="title_activity_about">AboutActivity</string>
     <string name="title_activity_image">ImageActivity</string>
     <string name="title_activity_input2">InputActivity2</string>
@@ -12,4 +12,8 @@
     <string name="title_activity_files">FilesActivity</string>
     <string name="title_activity_online">OnlineActivity</string>
     <string name="title_activity_web">WebActivity</string>
+    <string name="title_activity_wandering1">WanderingActivity1</string>
+    <string name="title_activity_wandering2">WanderingActivity2</string>
+    <string name="title_activity_wandering3">WanderingActivity3</string>
+    <string name="title_activity_ruth">RuthActivity</string>
 </resources>
